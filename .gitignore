@@ -1,21 +1,30 @@
-.DS_Store
-../../../../../examples/frontend-example/node_modules/vue-eslint-parser/node_modules
-/dist
+log/
+logs/
+tmp/
+*.tmp
+*.bak
 
-# local env files
-.env.local
-.env.*.local
+target/
 
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+.cluster/
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw*
+**.db
+
+.mvn/
+mvnw
+mvnw.cmd
+
+.idea/
+out/
+*.iws
+*.iml
+*.ipr
+
+.settings/
+.classpath
+.project
+.apt_generated
+.factorypath
+.springBeans
+
+node_modules/
